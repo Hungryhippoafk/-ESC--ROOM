@@ -1,0 +1,55 @@
+@media (max-width: 480px) {
+
+  .logo {
+    width: 150px;
+    height: auto;
+    margin-left: 20px;
+  }
+
+  .logo-text-container {
+    display: flex;
+    align-items: center;
+    background-color: #011827;
+    background-size: 400px;
+    color: white;
+    width: 1000px;
+    height: 144px;
+  }
+
+  .text {
+    display: flex;
+    align-items: center;
+    width: 78px;
+    height: 84px;
+    top: 25px;
+    left: 168px;
+    font-size: 24px;
+    font-family: Roboto bold;
+    line-height: 28.13px;
+    font-weight: 700px;
+    margin-left: 15px;
+  }
+
+  .img1 {
+    width: 770px;
+    height: 320px;
+    top: 144px;
+    display: flex;
+  }
+
+  .onsite {
+    background-color: #8ACFE5;
+    border: none;
+    color: rgb(0, 0, 0);
+    padding: 15px 32px;
+    text-align:center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 20px;
+    font-weight: 600;
+    margin: 4px 2px;
+    cursor: pointer;
+  }
+
+
+}
