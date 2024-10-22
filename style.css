@@ -1,0 +1,171 @@
+.logo
+
+/*hacker logo*/
+  {
+  width: 200px;
+  height: 150px;
+  align-items: center;
+  margin-left: 40px;
+  margin-top: 20px
+}
+
+.site-header
+
+/*container of logo and text and background*/
+  {
+  background-color: #011827;
+  width: 100vh;
+  height: 30vh;
+  align-items: center;
+  display: flex;
+}
+
+.text
+
+/*hacker text*/
+  {
+  color: white;
+  font-weight: 500;
+  font-size: 35px;
+  flex-direction: column;
+  position: absolute;
+  margin-top: 30px;
+  margin-left: 20px;
+  font-weight: 500;
+
+}
+
+.challenges-section {
+  width: 480px;
+  height: 274px;
+  top: 144px;
+  gap: 0px;
+  opacity: 0px;
+
+}
+
+.img1 {
+  min-width: 600px;
+  height: 300px;
+  top: 144px;
+  gap: 0px;
+  opacity: 0px;
+  size-adjust: 100px;
+  display: flex;
+  margin-right:100px;
+  
+
+}
+
+.onsite {
+  width: 308px;
+  height: 66px;
+  top: 455px;
+  left: 91px;
+  gap: 0px;
+  opacity: 0px;
+  font-family: Roboto;
+  font-size: 26px;
+  font-weight: 700px;
+
+  background-color:#8ACFE5;
+  
+
+}
+
+.online {
+  width: 129px;
+  height: 19.97px;
+  top: 551px;
+  left: 175px;
+  gap: 0px;
+  opacity: 0px;
+  font-family: Roboto;
+  font-size: 16px;
+  font-weight: 700;
+  line-height: 18.75px;
+  text-align: center;
+  color:#36769D;
+  text-decoration: underline;
+}
+
+.review-section {
+  width: 100px;
+  height: 75px;
+  top: 638px;
+  left: 21px;
+  gap: 0px;
+
+}
+
+.logoface {
+  width: 100px;
+  height: 75px;
+  top: 638px;
+  left: 21px;
+  gap: 0px;
+  border-radius: 873px 0px 0px 0px;
+  opacity: 0px;
+
+  border-radius: 50%;
+}
+
+.popular-challenges {}
+
+.box-image {
+  width: 480px;
+  height: 274px;
+  top: 144px;
+  gap: 0px;
+  opacity: 0px;
+}
+
+.box-stars {}
+
+.latin-box {}
+
+.onsite1 {}
+
+.online1 {}
+
+.story-section {}
+
+.imghack {
+  width: 480px;
+  height: 274px;
+  top: 144px;
+  gap: 0px;
+  opacity: 0px;
+}
+
+.book-container {}
+
+.box-stars {
+  width: 480px;
+  height: 274px;
+  top: 144px;
+  gap: 0px;
+  opacity: 0px;
+}
+
+.book {}
+
+.play-container {}
+
+.imglady {
+  width: 480px;
+  height: 274px;
+  top: 144px;
+  gap: 0px;
+  opacity: 0px;
+}
+
+.challenge-container {}
+
+.challenge-container {}
+
+.footer-info {}
+
+.footer-navigation {}
+
+.footer-social {}
