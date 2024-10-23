@@ -1,11 +1,11 @@
 
-@media only screen and (max-width: 600px){
-.logo
 
+
+.logo
 /*hacker logo*/
   {
-  width: 200px;
-  height: 150px;
+  width: 30%;
+  height: 30%;
   align-items: center;
   margin-left: 40px;
   margin-top: 20px
@@ -16,8 +16,8 @@
 /*container of logo and text and background*/
   {
   background-color: #011827;
-  width: 100vh;
-  height: 30vh;
+  width: 430px;
+  height: 150px;
   align-items: center;
   display: flex;
 }
@@ -28,35 +28,34 @@
   {
   color: white;
   font-weight: 500;
-  font-size: 35px;
+  font-size: 21px;
   flex-direction: column;
   position: absolute;
   margin-top: 30px;
-  margin-left: 20px;
+  margin-left: 12px;
   font-weight: 500;
 
 }
 
 .challenges-section {
-  width: 480px;
-  height: 274px;
-  top: 144px;
-  gap: 0px;
-  opacity: 0px;
 
+  width: 30px;
+  height: 150px;
+}
+.img-hack-container
+{
+  width: 500px; 
+  height: 500px;
 }
 
 .img1 {
-  min-width: 600px;
-  height: 300px;
-  top: 144px;
-  gap: 0px;
-  opacity: 0px;
-  size-adjust: 100px;
-  display: flex;
-  margin-right:100px;
+  display: block;
+  max-width: 100%;
+  margin-left: auto;
+  margin-right: auto;
+  margin:none;
+  padding:none;
   
-
 }
 
 .onsite {
@@ -94,10 +93,11 @@
 .review-section {
   width: 100px;
   height: 75px;
+  position: absolute; 
   top: 638px;
   left: 21px;
   gap: 0px;
-
+  display: flex;
 }
 
 .logoface {
@@ -112,7 +112,11 @@
   border-radius: 50%;
 }
 
-.popular-challenges {}
+.popular-challenges {
+ display: flex;
+ width: 50px;
+ height: 50px;
+}
 
 .box-image {
   width: 480px;
@@ -140,7 +144,11 @@
   opacity: 0px;
 }
 
-.book-container {}
+.book-container {
+  display: flex;
+  width: 50px;
+  height: 50px;
+}
 
 .box-stars {
   width: 480px;
@@ -150,9 +158,15 @@
   opacity: 0px;
 }
 
-.book {}
+.book { display: flex;
+ width: 50px;
+ height: 50px;}
 
-.play-container {}
+.play-container {
+  display: flex;
+  width: 50px;
+  height: 50px;
+}
 
 .imglady {
   width: 480px;
@@ -162,9 +176,17 @@
   opacity: 0px;
 }
 
-.challenge-container {}
+.challenge-container {
+  display: flex;
+  width: 50px;
+  height: 50px;
+}
 
-.challenge-container {}
+.challenge-container {
+  display: flex;
+  width: 50px;
+  height: 50px;
+}
 
 .footer-info {}
 
@@ -176,4 +198,3 @@
 
 
 
-}
