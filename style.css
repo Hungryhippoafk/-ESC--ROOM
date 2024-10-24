@@ -1,14 +1,9 @@
-
-
-
-.logo
-/*hacker logo*/
-  {
+.logo {
   width: 30%;
   height: 30%;
   align-items: center;
-  margin-left: 40px;
-  margin-top: 20px
+  margin-left: 15px;
+  margin-top: 5px
 }
 
 .site-header
@@ -16,8 +11,8 @@
 /*container of logo and text and background*/
   {
   background-color: #011827;
-  width: 430px;
-  height: 150px;
+  width: 100%;
+  height: 15vh;
   align-items: center;
   display: flex;
 }
@@ -31,170 +26,481 @@
   font-size: 21px;
   flex-direction: column;
   position: absolute;
-  margin-top: 30px;
+  margin-top: 10px;
   margin-left: 12px;
   font-weight: 500;
+  font-family: roboto bold;
 
+}
+
+.hack-img {
+  width: 359px;
 }
 
 .challenges-section {
-
-  width: 30px;
-  height: 150px;
-}
-.img-hack-container
-{
-  width: 500px; 
-  height: 500px;
-}
-
-.img1 {
-  display: block;
-  max-width: 100%;
-  margin-left: auto;
-  margin-right: auto;
-  margin:none;
-  padding:none;
-  
-}
-
-.onsite {
   width: 308px;
   height: 66px;
   top: 455px;
   left: 91px;
   gap: 0px;
   opacity: 0px;
-  font-family: Roboto;
-  font-size: 26px;
-  font-weight: 700px;
-
-  background-color:#8ACFE5;
-  
-
 }
 
-.online {
-  width: 129px;
-  height: 19.97px;
-  top: 551px;
-  left: 175px;
-  gap: 0px;
+.onsiteBtn {
+  width: 250px;
+  height: 42px;
+  outline: none;
+  left: 91px;
   opacity: 0px;
   font-family: Roboto;
+  font-size: 20px;
+  font-weight: 700;
+  background-color: #8ACFE5;
+  margin-left: 15%;
+  margin-top: 5%;
+  border: none;
+}
+
+.onlineBtn {
+  width: 129px;
+  height: 19.97px;
+  margin-top: 5%;
+  margin-left: 30%;
+  font-family: Roboto bold;
   font-size: 16px;
   font-weight: 700;
   line-height: 18.75px;
   text-align: center;
-  color:#36769D;
+  color: #36769D;
   text-decoration: underline;
+  border: none;
+  background-color: none;
+  background-color: transparent;
+  white-space: nowrap;
 }
 
 .review-section {
-  width: 100px;
-  height: 75px;
-  position: absolute; 
-  top: 638px;
-  left: 21px;
-  gap: 0px;
+  width: 100%;
   display: flex;
+  align-items: center;
+  gap: 20px;
+  font-size: 100%;
+  font-weight: 600;
+  margin-top: 10%;
+
 }
 
 .logoface {
-  width: 100px;
-  height: 75px;
-  top: 638px;
-  left: 21px;
-  gap: 0px;
-  border-radius: 873px 0px 0px 0px;
-  opacity: 0px;
-
+  width: 70px;
+  height: 70px;
   border-radius: 50%;
+  object-fit: cover;
+}
+
+.review-container {
+  display: flex;
+  flex-direction: column;
+  border-radius: 50%;
+
+}
+
+.review-text {
+  font-family: Roboto italic;
+  font-style: italic;
+  margin: 0;
+  font-weight: normal;
+  font-weight: 500;
+  font-size: 20px;
+
+}
+
+.review-author {
+  font-size: 0.8rem;
+  font-weight: normal;
+  margin: 0;
 }
 
 .popular-challenges {
- display: flex;
- width: 50px;
- height: 50px;
+  margin-top: 90px;
+  margin-left: 30px;
+  display: flex;
+  flex-direction: column;
+}
+
+.challenge-info {
+  margin: 5px;
+  transform: translateY(-10px);
+}
+
+.popular-challenge1 {
+  font-size: 25px;
+  margin-bottom: 30px;
+  font-weight: 400;
+  font-family: Roboto regular;
+}
+
+.titletext {
+  font-size: 24px;
+  font-family: roboto bold;
+  margin-left: 10px;
+}
+
+.box {
+  display: flex;
+  flex-direction: column;
+  border: 1px solid #ddd;
+  border-radius: 3px;
+  margin-bottom: 20px;
+  box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+  width: 300px;
+  height: 350px;
+  padding: 0.5px;
 }
 
 .box-image {
-  width: 480px;
-  height: 274px;
-  top: 144px;
-  gap: 0px;
-  opacity: 0px;
+  width: 100%;
+  height: auto;
+  border-radius: 8px;
+  justify-items: auto;
+  object-fit: cover;
 }
 
-.box-stars {}
+.checked {
+  color: #E3170A;
+  transform: translateY(-20px);
+  margin-left: 5px;
+  width: 10px;
+}
 
-.latin-box {}
+.outline {
+  color: transparent;
+  -webkit-text-stroke-width: 1px;
+  -webkit-text-stroke-color: red;
+  transform: translateY(-20px);
+  margin-left: 4px;
+}
 
-.onsite1 {}
+.players-container {
+  font-size: 13px;
+  margin: 0;
+  margin-left: 12px;
+  text-align: center;
+  transform: translateY(-36px);
+}
 
-.online1 {}
+.latin-box {
+  margin-top: 10px;
+  font-size: 16px;
+  transform: translateY(-70px);
+  padding: 1rem;
 
-.story-section {}
+}
+
+.roomBtn {
+  color: white;
+  background-color: #E3170A;
+  width: 50%;
+  height: 34px;
+  border-radius: 5px;
+  left: 41px;
+  opacity: 0px;
+  font-family: Roboto regular;
+  font-size: 20px;
+  font-weight: 500;
+  margin-left: 38%;
+  margin-top: 5%;
+  border: none;
+  transform: translateY(-90px);
+
+
+}
+
+.onsite1 {
+  width: 250px;
+  height: 51px;
+  border-radius: 0.2rem;
+  outline: none;
+  left: 91px;
+
+  font-family: Roboto regular;
+  font-size: 23px;
+  font-weight: 700;
+  background-color: #8ACFE5;
+  margin-left: 15%;
+  transform: translateY(-40px);
+  border: none;
+
+}
+
+.online1 {
+  width: 200px;
+  height: 19.97px;
+  margin-left: 35%;
+  font-family: Roboto;
+  font-size: 18px;
+  font-weight: 700;
+  line-height: 18.75px;
+  text-align: center;
+  color: #36769D;
+  text-decoration: underline;
+  border: none;
+  background-color: none;
+  background-color: transparent;
+  white-space: nowrap;
+  padding-bottom: 40%;
+
+
+}
+
+.storylife {
+  padding-top: 44px;
+  text-align: center;
+
+}
+
+.story-section {
+
+  padding-bottom: 10%;
+  background-color: #011827;
+}
+
+.longtext-story {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 350;
+  height: 300px;
+  text-align: center;
+  font-size: 24px;
+  margin: auto;
+  color: #ffffff;
+  background-color: #011827;
+  position: relative;
+  font-family: roboto regular;
+
+}
+
+.storyBtn1 {
+
+  border: 2px solid #8ACFE5;
+  color: #8ACFE5;
+  text-decoration: none;
+  border-radius: 5px;
+  background-color: transparent;
+  width: 270px;
+  height: 60px;
+  font-size: 24px;
+  text-align: center;
+  line-height: 60px;
+  transform: translateY(-40px);
+
+}
 
 .imghack {
-  width: 480px;
-  height: 274px;
-  top: 144px;
+  width: 100%;
+}
+
+.book {
+  color: white;
+  background-color: #E3170A;
+  border-radius: 5px;
+  font-family: Roboto;
+  font-size: 25px;
+  font-weight: 700;
+  margin-left: 1%;
+  margin-top: 5%;
+  border: none;
+  width: 276px;
+  height: 60px;
+  top: 2702px;
+  left: 21px;
   gap: 0px;
-  opacity: 0px;
+
+}
+
+.friendstext {
+  font-size: 24px;
+  font-family: roboto bold;
+}
+
+.para-container {
+  font-size: 21px;
+  font-family: roboto regular;
 }
 
 .book-container {
   display: flex;
-  width: 50px;
-  height: 50px;
-}
-
-.box-stars {
-  width: 480px;
-  height: 274px;
-  top: 144px;
-  gap: 0px;
-  opacity: 0px;
-}
-
-.book { display: flex;
- width: 50px;
- height: 50px;}
-
-.play-container {
-  display: flex;
-  width: 50px;
-  height: 50px;
+  flex-direction: column;
+  text-align: center;
+  padding-bottom: 20%;
 }
 
 .imglady {
-  width: 480px;
-  height: 274px;
-  top: 144px;
+  width: 100%;
+
+}
+
+.play {
+  font-size: 28px;
+  font-weight: 700;
+
+  font-family: Roboto bold;
+}
+
+.paragrah-text {
+  font-size: 21px;
+  display: flex;
+  flex-direction: column;
+  font-family: roboto regular;
+  margin-left: 10px;
+
+}
+
+.challenge-container {
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 100px;
+}
+
+
+
+.challenge {
+  color: white;
+  background-color: #E3170A;
+  border-radius: 5px;
+  font-family: Roboto;
+  font-size: 23px;
+  font-weight: 700;
+  margin-left: 2%;
+  margin-top: 5%;
+  border: none;
+  width: 278px;
+  height: 60px;
+  top: 2702px;
+  left: 21px;
   gap: 0px;
   opacity: 0px;
 }
 
-.challenge-container {
-  display: flex;
-  width: 50px;
-  height: 50px;
+.hackertext {
+  padding-top: 50px;
+  text-align: left;
+  margin-top: 50%;
+  margin-left: 5%;
+  font-size: 18px;
+  font-family: Roboto;
 }
 
-.challenge-container {
-  display: flex;
-  width: 50px;
-  height: 50px;
+.latinfooter {
+  text-align: left;
+  margin-left: 5%;
+  font-size: 15px;
+  font-family: Roboto;
+  padding-right: 10%;
+  transform: translateY(-10%);
+
 }
 
-.footer-info {}
-
-.footer-navigation {}
-
-.footer-social {}
-
-
+.background-color {
+  background-color: #011827;
+  color: white;
+  width: 100%;
+}
 
 
 
+.button-list {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  
+
+}
+
+.sitemaptext {
+  color: white;
+  font-family: roboto bold;
+  background-color: transparent;
+  outline: none;
+  border: none;
+  margin-bottom: 10px;
+  padding: 10px 20px;
+  font-size: 17px;
+  color: white;
+  border: none;
+  text-align: left;
+  width: 200px;
+  transform: translateY(-40%);
+}
+
+.list-button {
+  margin-bottom: -15px;
+  padding: 10px 20px;
+  background-color: transparent;
+  color: white;
+  border: none;
+  cursor: pointer;
+  text-align: left;
+  width: 200px;
+  font-size: 15px;
+  font-family: roboto;
+  transform: translateY(-90%);
+}
+
+.list-button2 {
+  margin-bottom: -60px;
+  padding: 30px 20px;
+  background-color: transparent;
+  color: white;
+  border: none;
+  cursor: pointer;
+  text-align: left;
+  width: 200px;
+  font-size: 15px;
+  font-family: roboto;
+  transform: translateY(-50%);
+}
+
+
+.footer-social {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+}
+
+.button-list1 {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  padding: 0;
+  margin: 0;
+}
+
+.followtext {
+  color: white;
+  font-family: roboto bold;
+  background-color: transparent;
+  outline: none;
+  border: none;
+  margin-bottom: 10px;
+  padding: 10px 20px;
+  font-size: 17px;
+  color: white;
+  border: none;
+  text-align: left;
+  width: 200px;
+  transform: translateY(-40%);
+}
+.button-list2{
+  margin-bottom: -60px;
+  padding: 30px 20px;
+  background-color: transparent;
+  color: white;
+  border: none;
+  cursor: pointer;
+  text-align: left;
+  width: 200px;
+  font-size: 15px;
+  font-family: roboto;
+  transform: translateY(-70%);
+}
