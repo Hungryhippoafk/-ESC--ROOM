@@ -1,11 +1,10 @@
-
 @media screen and (min-width: 1200px) {
 
-  .wrapper{
-    max-width: 100%; 
+  .wrapper {
+    max-width: 100%;
     margin: 0 auto;
-    
-    
+
+
   }
 
 }
@@ -48,7 +47,7 @@
     height: 216px;
     gap: 0px;
     opacity: 0px;
-    
+
   }
 }
 
@@ -166,8 +165,8 @@
 
 /*hack img for bigger screens*/
 @media screen and (min-width: 1200px) {
-  .hack-img {        
-    max-width:100%;  
+  .hack-img {
+    max-width: 100%;
     object-fit: cover;
     top: 216px;
     gap: 0px;
@@ -286,7 +285,8 @@
     display: flex;
     gap: 20px;
     align-items: center;
-    
+    justify-content: center;
+
   }
 
   .review-section {
@@ -294,7 +294,9 @@
     align-items: center;
     transform: translateY(-340px);
     margin-left: 1000px;
-    
+
+    flex: 100px;
+
   }
 
   .logoface {
@@ -302,6 +304,7 @@
     height: 80px;
     border-radius: 50%;
     margin-right: 15px;
+    width: 1000px;
   }
 
   .review-container {
@@ -505,7 +508,7 @@
     font-weight: 400;
     line-height: 42.19px;
     text-align: center;
-    margin-left: 300px;
+    margin-left: 750px;
     transform: translateY(-400px);
   }
 }
@@ -513,49 +516,27 @@
 /*popular-challenges 3 boxs bigger screen*/
 @media screen and (min-width: 1200px) {
   .popular-challenges {
-    width: 100%;
-    height: auto;
-    gap: 0px;
-    border-radius: 8px 8px 0px 0px;
-    opacity: 1;
+   
     padding-right: 5px;
     display: flex;
     flex-direction: column;
   }
-
-  .popular-challenge1 {
-    font-size: 25px;
-    margin-bottom: 30px;
-    font-weight: 400;
-    font-family: 'Roboto', sans-serif;
-
-  }
-
   .box-container {
     display: flex;
     flex-wrap: nowrap;
     justify-content: space-between;
-    width: 363px;
-    height: 446px;
+   
+    
     top: 1203px;
     left: 53px;
     gap: 0px;
     border-radius: 8px 8px 0px 0px;
     opacity: 0px;
     padding: 40px;
-
   }
-
   .box3 {
-    width: 363px;
-    height: 446px;
-    top: 1203px;
-    left: 53px;
-    gap: 0px;
-    border-radius: 8px 8px 0px 0px;
-    opacity: 0px;
     padding: 40px;
-    border-radius: 8px 8px 0px 0px;
+    border-radius: 8px 8px 8px 8px;
     box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
     display: flex;
     flex-direction: column;
@@ -564,14 +545,12 @@
     margin: 0 50px;
     transform: translateY(-340px);
   }
-
   .box-image3 {
     width: 100%;
     height: auto;
     border-radius: 8px;
-    object-fit: cover;
+    object-fit: contain;
   }
-
   .titletext3 {
     margin-left: 20px;
     font-size: 32px;
@@ -583,7 +562,7 @@
   .checked3 {
     color: #E3170A;
     transform: translateY(-45px);
-    margin-left: 20px;
+    margin-left: 30px;
     width: 0px;
   }
 
@@ -592,15 +571,15 @@
     -webkit-text-stroke-width: 1px;
     -webkit-text-stroke-color: red;
     transform: translateY(-45px);
-    margin-left: 20px;
+    margin-left: 30px;
   }
 
   .players-container3 {
-    font-size: 15px;
+    font-size: 18px;
     margin: 0;
     text-align: center;
     transform: translateY(-60px);
-    margin-left: 260px;
+    margin-left: 400px;
   }
 
   .latin-box3 {
@@ -608,12 +587,13 @@
     font-size: 22px;
     transform: translateY(-80px);
     padding: 1rem;
+    margin-left: 10px;
   }
 
   .roomBtn3 {
     color: white;
     background-color: #E3170A;
-    width: 50%;
+    width: 200px;
     height: 44px;
     border-radius: 5px;
     opacity: 1;
@@ -623,8 +603,8 @@
     margin-left: auto;
     margin-top: 5%;
     border: none;
-    transform: translateY(-150px);
-    margin-left: 185px;
+    transform: translateY(-130px);
+    margin-left: 310px;
   }
 
 }
@@ -987,10 +967,11 @@
     color: #ffffff;
     background-color: #011827;
     font-family: Roboto;
-    font-size: 28px;
+    font-size: 32px;
     font-weight: 400;
     line-height: 32.81px;
     text-align: center;
+    transform: translateY(200px);
   }
 }
 
@@ -1030,6 +1011,9 @@
     opacity: 0px;
     padding-left: 500px;
     padding-top: 00px;
+    margin-left: 290px;
+    transform: translateY(270px);
+    
   }
 
   .storyBtn1 {
@@ -1082,7 +1066,8 @@
 /*background image hack for bigger screen*/
 @media screen and (min-width: 1200px) {
   .background-imagehack {
-    transform: translateY(-272px);
+    
+    transform: translateY(-611px);
   }
 }
 
@@ -1096,8 +1081,8 @@
 /*imghack for bigger screens*/
 @media screen and (min-width: 1200px) {
   .imghack {
-    width: 640px;
-    height: 460px;
+    width: 950px;
+    height: 560px;
     top: 2389px;
     gap: 0px;
     opacity: 0px;
@@ -1131,7 +1116,7 @@
     top: 2702px;
     left: 21px;
     gap: 0px;
-    margin-left: 750px;
+    margin-left: 1100px;
     margin-top: -100px;
   }
 }
@@ -1171,8 +1156,8 @@
     font-weight: 700;
     line-height: 37.5px;
     text-align: left;
-    transform: translatex(750px);
-    margin-top: -400px;
+    transform: translatex(1100px);
+    margin-top: -500px;
   }
 }
 
@@ -1207,7 +1192,7 @@
     font-weight: 400;
     line-height: 28.13px;
     text-align: left;
-    margin-left: 750px;
+    margin-left: 1100px;
   }
 }
 
@@ -1251,14 +1236,14 @@
 /*imglady for bigger screens*/
 @media screen and (min-width: 1200px) {
   .imglady {
-    width: 640px;
-    height: 460px;
+    width: 950px;
+    height: 560px;
     top: 2849px;
     left: 640px;
     gap: 0px;
     opacity: 0px;
-    margin-left: 640px;
-    transform: translateY(-177px);
+    margin-left:950px;
+    transform: translateY(-415px);
 
   }
 }
@@ -1288,7 +1273,7 @@
     font-weight: 700;
     line-height: 37.5px;
     text-align: left;
-    transform: translateY(-600px);
+    transform: translateY(-900px);
     margin-left: 90px;
   }
 }
