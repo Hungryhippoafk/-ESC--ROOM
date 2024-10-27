@@ -236,7 +236,7 @@
     font-weight: 700;
     font-family: roboto;
     background-color: #8ACFE5;
-    margin-left: 10%;
+    margin-left: 15%;
     margin-top: 10%;
     border: none;
   }
@@ -253,7 +253,7 @@
     gap: 0px;
     opacity: 0px;
     margin-top: 7%;
-    margin-left: 30%;
+    margin-left: 35%;
     font-family: Roboto bold;
     font-size: 16px;
     font-weight: 700;
@@ -317,25 +317,98 @@
 
 /*review container for smaller screens*/
 @media screen and (max-width:480px) {
-  .review-section {
-    width: 439px;
-    height: 139px;
-    top: 638px;
-    left: 21px;
-    gap: 0px;
-    border-radius: 873px 0px 0px 0px;
-    opacity: 0px;
-    display: flex;
-    align-items: center;
+  .reviews {
+    width: 100%;
+    display: inline-flex;
+    justify-content: center;
     gap: 20px;
-    font-size: 100%;
-    font-weight: 600;
-    margin-top: 10%;
-    padding-top: 5%;
-    padding-left: 5%;
+  }
+
+  .review {
+    height: 141px;
+    width: 520px;
+    position: relative;
+    display: inline-flex;
+    gap: 16.89px;
+    transform: translateY(50px);
+  }
+
+  .re-container {
+    display: table;
+    gap: 0;
+  }
+
+  .pfpctr {
+    width: 60px;
+    height: 60px;
+    margin-left: 10px;
+    border-radius: 60%;
+    float: left;
+  }
+
+  .re-text {
+    font-family: 'Roboto', sans-serif;
+    font-style: italic;
+    font-size: 24px;
+    display: block;
+    
+  }
+
+  .re-author{
+    font-style: roboto regular;
+    color: #000000;
+    font-size: 18px;
+    width: 295px;
+    
+  }
+  /*not visable on smaller screen*/
+  .reviews1 {
+    width: 100%;
+    display: inline-flex;
+    justify-content: center;
+    gap: 20px;
+    display: none;
+  }
+
+  .review1 {
+    height: 141px;
+    width: 520px;
+    position: relative;
+    display: inline-flex;
+    gap: 16.89px;
+    transform: translateY(-450px);
+    display: none;
+  }
+
+  .re-container1 {
+    display: table;
+    gap: 0;
+    display: none;
+  }
+
+  .pfpctr1 {
+    width: 80px;
+    height: 80px;
+    border-radius: 60%;
+    float: left;
+    display: none;
+  }
+
+  .re-text1 {
+    font-family: 'Roboto', sans-serif;
+    font-style: italic;
+    font-size: 24px;
+    display: none;
+  }
+
+  .re-author1 {
+    font-style: roboto regular;
+    color: #000000;
+    font-size: 18px;
+    width: 295px;
+    display: none;
   }
 }
-
 /*review logoface1 for smaller screens*/
 @media screen and (max-width:480px) {
   .logoface1 {
@@ -618,7 +691,7 @@
     font-weight: 400;
     font-family: Roboto regular;
     text-align: center;
-    margin-top: 60px;
+    margin-top: 120px;
   }
 
 }
@@ -832,10 +905,9 @@
     font-weight: 600;
     font-family: roboto bold;
     background-color: #8ACFE5;
-    margin-left: -2%;
+    margin-left: 12px;
     margin-top: -900px;
     border: none;
-
   }
 }
 
@@ -1251,7 +1323,7 @@
     text-align: left;
     transform: translateY(-1100px);
     margin-left: 120px;
-    
+
   }
 }
 
@@ -1288,7 +1360,7 @@
     text-align: left;
     transform: translateY(-1100px);
     margin-left: 120px;
-    
+
   }
 }
 
@@ -1406,6 +1478,7 @@
     transform: translateY(20px);
   }
 }
+
 /*general footer for larger screen*/
 @media screen and (min-width:1200px) {
 
@@ -1426,6 +1499,7 @@
     transform: translateY(-100px);
   }
 }
+
 /*list button for play online and onsite smaller screen*/
 @media screen and (max-width: 480px) {
   .list-button2 {
@@ -1459,7 +1533,7 @@
 @media screen and (min-width: 1200px) {
   .hackertext {
     width: auto;
-    
+
     max-width: 300px;
     font-family: Roboto, sans-serif;
     font-size: 18px;
@@ -1515,14 +1589,14 @@
   .background-color {
     background-color: #011827;
     color: white;
-    padding: 60px 0; 
-    width: 100%; 
-    height: 100vh; 
-    position: relative; 
+    padding: 60px 0;
+    
+   
+    position: relative;
     transform: translateY(-940px);
-    display: flex;           /* Use flexbox */
-    flex-direction: column;  /* Stack children vertically */
-    align-items: center;     /* Center horizontally */
+    display: flex;
+    flex-direction: column;
+    align-items: center;
     justify-content: center;
   }
 }
