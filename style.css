@@ -1,3 +1,4 @@
+
 /*logo mobile*/
 @media screen and (max-width:480px) {
   .logo {
@@ -270,98 +271,53 @@
 
 /*review containers for bigger screens*/
 @media screen and (min-width: 1200px) {
-  .reviews-container {
-    display: flex;
-    gap: 20px;
-    align-items: center;
-    justify-content: center;
+  .reviews {
+    width:100%;
+    display:inline-flex;
+    justify-content:center;
+    gap:20px;
+   
+    
+}
 
-  }
+.review {
+    height:141px;
+    width:520px;
+    position:relative;
+    display:inline-flex;
+    gap:16.89px;
+    transform: translateY(-450px);
+}
 
-  .review-section {
-    display: flex;
-    align-items: center;
-    transform: translateY(-340px);
-    margin-left: 1000px;
+.re-container {
+    display:table;
+    gap:0;
+}
 
-    flex: 100px;
-
-  }
-
-  .logoface {
+.pfpctr {
     width: 80px;
     height: 80px;
-    border-radius: 50%;
-    margin-right: 15px;
-    width: 1000px;
-  }
+    border-radius: 60%;
+    float:left;
+}
 
-  .review-container {
-    max-width: 522px;
-  }
+.re-text {
+    font-family: 'Roboto', sans-serif;
+    font-style: italic;
+    font-size:24px;
+    display:block;
+}
 
-  .review-text {
-    font-size: 16px;
-    margin: 0;
-  }
-
-  .review-author {
+.re-author {
     font-style: roboto regular;
     color: #000000;
-    margin-top: 1px;
-    margin-left: -450px;
-  }
+    font-size:18px;
+    width:295px;
 }
-
-/*review container1 for bigger screens*/
-@media screen and (min-width: 1200px) {
-  .review-section1 {
-    display: flex;
-    flex-direction: row;
-    align-items: center;
-    gap: 40px;
-    /* Gap between the two review sections */
-    transform: translateY(-450px);
   }
 
-  .review-container,
-  .review-container1 {
-    display: flex;
-    flex-direction: row;
-    align-items: center;
-    gap: 10px;
-    /* Gap between logo and text */
-    max-width: 500px;
-    /* Controls the width of each review section */
-  }
 
-  .logoface,
-  .logoface1 {
-    width: 100px;
-    height: 100px;
-    border-radius: 50%;
-    margin-right: 10px;
-    /* Reduced margin to bring logo closer to text */
-  }
 
-  .review-text,
-  .review-text1 {
-    font-style: italic;
-    max-width: 400px;
-    font-size: 26px;
-    line-height: 1.5;
-    text-align: left;
-  }
-
-  .review-author,
-  .review-author1 {
-    font-family: 'Roboto', sans-serif;
-    color: #000000;
-    transform: translateY(100px);
-
-  }
-
-}
 
 /*review container for smaller screens*/
 @media screen and (max-width:480px) {
