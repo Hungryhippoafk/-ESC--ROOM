@@ -458,20 +458,21 @@
   .review-text {
     font-family: Roboto italic;
     margin: 0;
-    font-weight: normal;
     font-weight: 500;
-    font-size: 18px;
+    font-size: 24px;
     display: block;
-    width: 220px;
-    height: 100px;
+    width: 320px;
     top: 638px;
     left: 21px;
     gap: 0px;
     border-radius: 873px 0px 0px 0px;
-    opacity: 0px;
+    overflow-wrap:break-word;
+    height: auto; 
+    color:rgb(0, 0, 0);
+}
 
   }
-}
+
 
 /*review author for smaller screens*/
 @media screen and (max-width:480px) {
@@ -480,7 +481,7 @@
     font-weight: normal;
     margin: 0;
     padding-top: 2%;
-    margin-top: -15px;
+    transform: translateY(-3px);
   }
 }
 
@@ -936,8 +937,7 @@
 /*story box for smaller sreens*/
 @media screen and (max-width:480px) {
   .story-section {
-    padding-bottom: 10%;
-    text-align: center;
+    padding-bottom: 40%;
     background-color: #011827;
     height: 500px;
     transform: translateY(-100px);
@@ -973,26 +973,18 @@
 /*longtext inside box smaller screens*/
 @media screen and (max-width:480px) {
   .longtext-story {
-    display: contents;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    margin: 30px;
-    color: #ffffff;
-    background-color: transparent;
-    font-family: Roboto;
-    font-size: 16px;
-    font-weight: 400;
-    line-height: 1.2;
-    text-align: center;
-    width: 240px;
-    height: 234px;
-    top: 1724px;
-    left: 21px;
-    gap: 0px;
-    opacity: 0px;
-    transform: translateY(400px);
-    overflow-wrap: break-word
+    width: auto; 
+      max-width: 90%; 
+      font-size: 24px;
+      padding: 10px;
+      line-height: 1.4; 
+      text-align: center;
+      margin: 0 auto; 
+      transform: translateY(50px);
+      word-wrap: break-word; 
+      overflow-wrap: break-word;
+      height: auto; 
+      color:white;
   }
 }
 
@@ -1038,7 +1030,7 @@
     gap: 0px;
     opacity: 0px;
     padding-left: 30px;
-    padding-top: 70px;
+    padding-top: 150px;
   }
 }
 
@@ -1055,7 +1047,8 @@
     font-size: 24px;
     text-align: center;
     line-height: 60px;
-    transform: translateY(-40px);
+    transform: translateY(-50px);
+    margin-left: 60px;
   }
 }
 
