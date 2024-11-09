@@ -1104,10 +1104,15 @@ h6 {
     color: #ffffff;
   }
 
-  #menuToggle,
+  .menuToggle{
+    display:none;
+  }
   #closeToggle {
     visibility: hidden;
 
+  }
+  #mobileNav{
+    visibility: hidden;
   }
 
 }
