@@ -34,7 +34,7 @@
   }
 
   .topnav {
-    visibility: hidden;
+    display: none;
 
   }
 
@@ -42,10 +42,6 @@
     visibility: hidden;
   }
 
-  .hidden {
-    display: none;
-
-  }
 
   #mobileNavOverlay {
     position: fixed;
@@ -56,34 +52,41 @@
     background-color: #B6BDB5;
     opacity: 40%;
     z-index: 999;
+    display: none;
   }
 
   #mobileNav {
     position: fixed;
-    display: flex;
-    flex-direction: column;
     align-items: center;
-    justify-content: center;
     width: 90vw;
     height: 914px;
     top: 23px;
     left: 20px;
     right: 20px;
-    gap: 0px;
-    opacity: 0px;
+    padding-top: 35%;
+    justify-content: center;
+    align-items: center;
     box-shadow: 0 3px 10px rgb(0 0 0 / 0.2);
     z-index: 1000;
     background-color: #011827;
+    display: none;
+    animation: slowly 0.7s;
   }
+  @keyframes slowly {
+    0% {
+      opacity : 0;
+    }
+   100% {
+      opacity: 1;
+    }
+    
+    
+  }
+
 
   #mobileNav a {
     color: white;
-    width: 179px;
-    height: 42px;
-    top: 289px;
-    left: 200px;
-    gap: 0px;
-    opacity: 0px;
+    text-align: center;
     font-family: Roboto;
     font-size: 36px;
     font-weight: 700;
@@ -91,23 +94,23 @@
     text-decoration: none;
   }
 
+  li {
+    text-align: center;
+  }
+
   ul {
     list-style: none;
-    position: relative;
-    width: 179px;
-    height: 42px;
-    margin-top: -700px;
-    gap: 0px;
-    opacity: 0px;
+    display: block;
+    padding: 0;
+    margin: 0;
     font-family: Roboto;
     font-size: 36px;
     font-weight: 700;
     line-height: 2.2;
-    text-align: center;
   }
 
-  
-  #menuToggle {
+
+  .menuToggle {
     position: absolute;
     background-color: transparent;
     width: 30px;
@@ -115,10 +118,10 @@
     top: 34px;
     gap: 0px;
     border: 6px 0px 0px 0px;
-    opacity: 0px;
     border: none;
     right: 40px;
     align-items: center;
+    cursor: pointer;
   }
 
   #closeToggle {
@@ -132,6 +135,17 @@
     border: none;
     position: fixed;
     align-items: center;
+    animation: fadein 1.5s;
+  }
+  @keyframes fadein {
+    0% {
+      opacity : 0;
+    }
+   100% {
+      opacity: 1;
+    }
+    
+    
   }
 }
 
